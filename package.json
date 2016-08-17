@@ -1,0 +1,30 @@
+{
+  "name": "union-find",
+  "version": "1.0.0",
+  "description": "Union-Find data structure for keeping track of unrelated sets of items.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perouz/UnionFind.git"
+  },
+  "keywords": [
+    "data structures",
+    "disjoint set",
+    "set union",
+    "graph",
+    "MST",
+    "connectivity"
+  ],
+  "author": "Perouz Taslakian <git@perouz.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perouz/UnionFind/issues"
+  },
+  "homepage": "https://github.com/perouz/UnionFind#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
