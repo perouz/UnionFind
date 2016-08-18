@@ -18,7 +18,7 @@ Set 3 = {e}
 
 Note that the items in your list must be of hashable type (Number, String, Symbol).
 
-```
+```javascript
 // Import union-find
 var UnionFind = require("../index.js")
 
@@ -57,24 +57,24 @@ npm install Union-Find-Hashable
 
 # API
 
-```
+```javascript
 var uf = new UnionFind(...L);
 ```
 
 Returns a new union-find data structure with `L.length` number of sets, each containing one item of `L`.
 
-```
+```javascript
 uf.makeSet(u)
 ```
 
 Creates a new set containing item `u`.
 
 
-```
+```javascript
 uf.findSet(u)
 ```
 OR
-```
+```javascript
 uf[u]
 ```
 
@@ -82,8 +82,10 @@ uf[u]
 Returns the representative (the root of the tree) of the set that item `u` is in.
 
 
-```
+```javascript
 uf.union(u,v)
 ```
 
 Merges the two sets that containing each of `u` and `v` (if they are in different sets). 
+
+
