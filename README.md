@@ -57,34 +57,21 @@ npm install Union-Find-Hashable
 
 # API
 
-```javascript
-var uf = new UnionFind(...L);
-```
+### `var uf = new UnionFind(...L);`
 
 Returns a new union-find data structure with `L.length` number of sets, each containing one item of `L`.
 
-```javascript
-uf.makeSet(u)
-```
+### `uf.makeSet(u)`
 
 Creates a new set containing item `u`.
 
 
-```javascript
-uf.findSet(u)
-```
-OR
-```javascript
-uf[u]
-```
-
+### `uf.findSet(u)`  OR `uf[u]`
 
 Returns the representative (the root of the tree) of the set that item `u` is in.
 
 
-```javascript
-uf.union(u,v)
-```
+### `uf.union(u,v)`
 
 Merges the two sets that containing each of `u` and `v` (if they are in different sets). 
 
