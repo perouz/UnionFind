@@ -8,7 +8,7 @@ The following is a "forest of balanced trees" implementation without path compre
 
 # Usage
 
-Assume you have a list of items `L = [a, b, c, d, e] that you would like to initially store with the following structure.
+Assume you have a list of items `L = [a, b, c, d, e]` that you would like to initially store with the following structure.
 
 ```
 Set 1 = {a, b, c}
